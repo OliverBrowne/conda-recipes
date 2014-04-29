@@ -1,0 +1,25 @@
+package:
+  name: biggus
+  version: 1.7.0-dev
+source:
+  git_url: git@github.com:SciTools/biggus.git
+  git_tag: v0.6.0-alpha
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - python
+    - numpy
+  run:
+    - python
+    - numpy
+
+test:
+  imports:
+    - biggus
+
+about:
+  home: http://scitools.org.uk/biggus
+  license: GNU LGPL
